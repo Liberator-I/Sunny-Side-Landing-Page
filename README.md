@@ -15,3 +15,8 @@
 - Flexbox
 - Media Queries
 - Javascript
+
+## A few Notes:
+- Not built responsive for all screen sizes.
+- Project only built to work on normal 1080p monitor and mobile phones in portrait mode
+- Goal was to see if I had the necessary skills to build a landing page from scratch and add a bit of Javascript for the menu toggle
