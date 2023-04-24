@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
 
-    background: url("/Assets/Images/Desktop/image-header.jpg") center / cover no-repeat;
+    background: url("Assets/Images/Desktop/image-header.jpg") center / cover no-repeat;
 }
 
 .main-nav {
@@ -231,19 +231,19 @@
 }
 
 .main-img-wrapper-1 {
-    background: url("/Assets/Images/Desktop/image-transform.png") center / cover no-repeat;
+    background: url("Assets/Images/Desktop/image-transform.png") center / cover no-repeat;
 }
 
 .main-img-wrapper-2 {
-    background: url("/Assets/Images/Desktop/image-stand-out.jpg") center / cover no-repeat;
+    background: url("Assets/Images/Desktop/image-stand-out.jpg") center / cover no-repeat;
 }
 
 .main-img-wrapper-3 {
-    background: url("/Assets/Images/Desktop/image-graphic-design.jpg") center/ cover no-repeat;
+    background: url("Assets/Images/Desktop/image-graphic-design.jpg") center/ cover no-repeat;
 }
 
 .main-img-wrapper-4 {
-    background: url("/Assets/Images/Desktop/image-photography.jpg") center / cover no-repeat;
+    background: url("Assets/Images/Desktop/image-photography.jpg") center / cover no-repeat;
 }
 
 /* ----- Testimonials ----- */
