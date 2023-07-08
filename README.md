@@ -17,6 +17,5 @@
 - Javascript
 
 ## A few Notes:
-- Not built responsive for all screen sizes.
-- Project only built to work on normal 1080p monitor and mobile phones in portrait mode
+- Site has been updated to work responsively on multiple screens!
 - Goal was to see if I had the necessary skills to build a landing page from scratch and add a bit of Javascript for the menu toggle
