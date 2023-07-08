@@ -130,8 +130,13 @@
     flex-direction: column;
 }
 
-.second-title {
+.txt-wrapper {
     width: 600px;
+    height: auto;
+}
+
+.second-title {
+    width: 100%;
     font-size: 4rem;
     margin-bottom: 40px;
 
@@ -139,7 +144,7 @@
 }
 
 .second-text {
-    width: 600px;
+    width: 100%;
     font-size: 1.4rem;
     line-height: 1.5;
     padding: 0px 10px 0px 0px;
@@ -150,7 +155,7 @@
 }
 
 .learn-more {
-    width: 600px;
+    width: 100%;
     color: #000;
     color: var(--neutral-veryDarkDesaturatedBlue);
 
@@ -167,15 +172,20 @@
     flex-direction: column;
 }
 
+.txt-wrapper-2 {
+    width: 600px;
+    height: auto;
+}
+
 .third-title {
-    width: 700px;
-    font-size: 4rem;
+    width: 100%;
+    font-size: 3.5rem;
     margin-bottom: 40px;
     color: var(--neutral-veryDarkDesaturatedBlue);
 }
 
 .third-text {
-    width: 700px;
+    width: 100%;
     font-size: 1.4rem;
     line-height: 1.5;
     padding: 0px 10px 0px 0px;
@@ -185,7 +195,7 @@
 }
 
 .learn-more-2 {
-    width: 700px;
+    width: 100%;
     color: #000;
     color: var(--neutral-veryDarkDesaturatedBlue);
 
@@ -212,15 +222,20 @@
 }
 
 .fourth-title, .fifth-title {
-    font-size: 3rem;
-    margin-bottom: 30px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
 
     font-family: var(--fraunces);
     color: var(--primary-darkSaturatedCyan);
 }
 
-.fourth-text, .fifth-text {
+.content-txt-wrapper-1 {
     width: 500px;
+}
+
+.fourth-text, .fifth-text {
+    width: 100%;
     margin-bottom: 50px;
     line-height: 1.5;
     text-align: center;
@@ -465,7 +480,153 @@
 
 /* ----- Media Queries ----- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1280px) {
+
+    .main-title {
+        margin-bottom: 40px;
+    }
+
+    .txt-wrapper {
+        width: 450px;
+        height: auto;
+        /* background-color: red; */
+    }
+    .second-title {
+        font-size: 2.5rem;
+    }
+
+    .second-text {
+        font-size: 1.2rem;
+    }
+
+    .txt-wrapper-2 {
+        width: 450px;
+        height: auto;
+    }
+
+    .third-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+
+    .third-text {
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .learn-more-2 {
+        width: 100%;
+        color: #000;
+        color: var(--neutral-veryDarkDesaturatedBlue);
+    
+        text-decoration-color: var(--primary-softRed) ;
+        font-family: var(--fraunces);
+    }
+
+    .sixth-title {
+        margin-top: 50px;
+    }
+
+    .testimonials {
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixth-title {
+        width: 100%;
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    
+        font-family: var(--fraunces);
+        color: var(--neutral-grayishBlue);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-title {
+        margin-bottom: 10px;
+    }
+
+    .txt-wrapper {
+        width: 300px;
+    }
+
+    .second-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .second-text {
+        font-size: 1rem;
+    }
+
+    .txt-wrapper-2 {
+        width: 300px;
+    }
+
+    .third-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .third-text {
+        font-size: 1rem;
+    }
+
+    .content-txt-wrapper-1 {
+        width: 300px;
+        /* background-color: red; */
+    }
+
+    .fourth-title, .fifth-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    
+        font-family: var(--fraunces);
+        color: var(--primary-darkSaturatedCyan);
+    }
+
+    .fourth-text, .fifth-text {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0px 20px 0px 20px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    
+        font-family: var(--barlow);
+        color: var(--primary-darkSaturatedCyan);
+    }
+
+    .testimonial {
+        width: 260px;
+    }
+
+    .test-text {
+        width: 230px;
+        font-size: .7rem;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 80px;
+
+        /* background-color: red; */
+    
+        color: var(--neutral-darkGrayishBlue);
+        font-family: var(--barlow);
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
 
     /* ----- Hamburger menu & hero ----- */
     .links-wrapper .no-mobile {
@@ -655,3 +816,4 @@
         width: 50%;
     }
 }
+
